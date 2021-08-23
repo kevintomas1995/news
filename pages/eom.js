@@ -10,10 +10,10 @@ export const EOM = ({ employee }) => {
       <div className={styles.main}>
         <h1>Employee of the month</h1>
         <div className={styles.employeeOfTheMonth}>
-          <h3>{employee.name}</h3>
-          <h6>{employee.position}</h6>
+          <h3>Kevin Tomas</h3>
+          <h6>Student</h6>
           <Image src={profilePic} alt="my pic" className={styles.image}/>
-          <p>{employee.description}</p>
+          <p>A passionate programmer who is looking for a new position as a working student</p>
         </div>
       </div>
     </div>
