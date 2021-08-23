@@ -20,3 +20,13 @@ a {
   height: 100vh;
   flex-direction: column;
 }
+
+.page-container-backgroundImg {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url("../public/news2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
