@@ -14,3 +14,14 @@
 .main div:hover {
     color: rgb(168, 168, 168),
 }
+
+
+@media only screen and (max-width: 550px) {
+    .main {
+        width: fit-content;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+    }
+  }
